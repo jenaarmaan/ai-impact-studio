@@ -1,17 +1,17 @@
 import { SectionHeader } from "./SectionHeader";
 
 const steps = [
-  { n: "01", title: "Understand", desc: "Deep dive into the problem, users, and constraints. No solution before clarity." },
-  { n: "02", title: "Design", desc: "Architect an AI-driven solution that fits the real workflow, not a slide deck." },
-  { n: "03", title: "Build", desc: "Ship a fast MVP that proves the impact in days — not months." },
-  { n: "04", title: "Iterate", desc: "Deploy, measure, iterate. A production system that compounds over time." },
+  { n: "01", title: "Problem Deep Dive", desc: "We map the real workflow, users, and constraints before proposing anything." },
+  { n: "02", title: "AI System Design", desc: "We architect the system end-to-end — models, data, interfaces, and failure modes." },
+  { n: "03", title: "Rapid MVP Build", desc: "A working system in days, used by real people, measured against real outcomes." },
+  { n: "04", title: "Production Deployment", desc: "Hardened, monitored, and handed over as a system your team can run and extend." },
 ];
 
 export function Process() {
   return (
     <section id="process" className="relative py-28">
       <div className="mx-auto max-w-6xl px-6">
-        <SectionHeader eyebrow="Process" title="How I Work" description="Four steps. No theatre." />
+        <SectionHeader eyebrow="Process" title="How We Work" description="Four steps. No theatre." />
 
         <div className="relative mt-16">
           {/* connecting line */}

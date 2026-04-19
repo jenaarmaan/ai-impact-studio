@@ -16,19 +16,19 @@ export function FinalCTA() {
               Let's Talk
             </div>
             <h2 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
-              <span className="text-gradient">Have a problem</span>
+              <span className="text-gradient">Have a Problem</span>
               <br />
-              <span className="text-neon-gradient">worth solving?</span>
+              <span className="text-neon-gradient">Worth Solving?</span>
             </h2>
             <p className="mx-auto mt-5 max-w-md text-muted-foreground">
-              Tell me about it. If it's a fit, I'll send back a plan within 48 hours.
+              We turn ideas into working AI systems.
             </p>
 
             <a
-              href="mailto:hello@yourname.com"
+              href="mailto:cacube.ai@gmail.com"
               className="group mt-8 inline-flex h-14 items-center justify-center gap-2 rounded-full bg-foreground px-8 text-base font-semibold text-background transition-all hover:scale-[1.02] hover:shadow-[0_0_50px_-5px_color-mix(in_oklab,var(--neon)_70%,transparent)]"
             >
-              Let's Build Something
+              Start a Project
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </a>
           </div>

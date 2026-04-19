@@ -14,24 +14,24 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "AI Engineer & Software Freelancer — Production AI Systems That Drive Results" },
+      { title: "ACube — AI Systems Studio | Production AI That Solves Real Business Problems" },
       {
         name: "description",
         content:
-          "Freelance AI engineer building production-grade systems. From idea to deployment — LLM apps, automation, and full-stack AI integration that drive measurable business impact.",
+          "ACube is an AI systems studio. We design, build, and deploy production-ready AI software that delivers measurable business impact — not prototypes.",
       },
-      { property: "og:title", content: "AI Engineer & Software Freelancer — Production AI Systems" },
+      { property: "og:title", content: "ACube — AI Systems Studio" },
       {
         property: "og:description",
         content:
-          "I design, build, and deploy AI-powered software that drives real business results. Available for select projects.",
+          "We build production AI systems that solve real business problems. Case studies, process, and contact.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "AI Engineer & Software Freelancer" },
+      { name: "twitter:title", content: "ACube — AI Systems Studio" },
       {
         name: "twitter:description",
-        content: "Production AI systems that solve real business problems. Built fast, shipped clean.",
+        content: "Production AI systems that solve real business problems. Designed, built, and deployed by ACube.",
       },
     ],
   }),

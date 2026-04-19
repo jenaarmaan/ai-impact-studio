@@ -1,7 +1,7 @@
 const stats = [
-  { value: "20+", label: "AI Projects Built" },
+  { value: "10+", label: "AI Systems Shipped" },
   { value: "100%", label: "End-to-End Deployments" },
-  { value: "12", label: "Live Production Systems" },
+  { value: "10", label: "Live Production Apps" },
   { value: "<2wk", label: "Avg. MVP Delivery" },
 ];
 

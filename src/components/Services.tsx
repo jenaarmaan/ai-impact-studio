@@ -5,22 +5,22 @@ const services = [
   {
     icon: Bot,
     title: "AI Product Development",
-    desc: "Custom AI tools — LLM apps, automation agents, and copilots built for your workflow.",
+    desc: "Custom LLM apps, copilots, and reasoning agents built around how your team actually works.",
   },
   {
     icon: Workflow,
     title: "Business Automation",
-    desc: "Reduce manual work with AI-driven workflows that integrate into your existing stack.",
+    desc: "Replace repetitive operational work with reliable AI workflows wired into your existing stack.",
   },
   {
     icon: Layers,
     title: "Full-Stack + AI Integration",
-    desc: "From frontend to backend to deployment — one engineer, one cohesive system.",
+    desc: "Frontend, backend, models, and infrastructure delivered as one coherent system.",
   },
   {
     icon: Rocket,
     title: "MVP to Production Scaling",
-    desc: "Take ideas from prototype to real, usable systems running reliably in production.",
+    desc: "Move from idea to a hardened production system that real users depend on every day.",
   },
 ];
 
@@ -28,7 +28,7 @@ export function Services() {
   return (
     <section id="services" className="relative py-28">
       <div className="mx-auto max-w-6xl px-6">
-        <SectionHeader eyebrow="Services" title="What I Do" description="Four focused offerings, all delivered end-to-end." />
+        <SectionHeader eyebrow="Services" title="What We Do" description="Four focused offerings, all delivered end-to-end." />
 
         <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((s, i) => {

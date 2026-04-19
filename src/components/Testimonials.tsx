@@ -2,17 +2,17 @@ import { SectionHeader } from "./SectionHeader";
 
 const quotes = [
   {
-    quote: "Shipped a production AI system in two weeks that would have taken our team a quarter. Genuinely changed how we operate.",
+    quote: "ACube shipped a production AI system in two weeks that would have taken our team a quarter. It changed how we operate.",
     author: "Founder",
     role: "Series A SaaS",
   },
   {
-    quote: "The rare engineer who actually thinks like a product person. Every line of code mapped to a business outcome.",
+    quote: "A rare team that thinks like product people. Every line of code mapped to a business outcome we could measure.",
     author: "CTO",
     role: "Fintech Startup",
   },
   {
-    quote: "Took our messy automation idea and turned it into a clean, reliable system. Best money we've spent this year.",
+    quote: "They took our messy automation idea and turned it into a clean, reliable system our ops team uses every day.",
     author: "Head of Ops",
     role: "Growth-stage company",
   },
@@ -22,7 +22,7 @@ export function Testimonials() {
   return (
     <section className="relative py-28">
       <div className="mx-auto max-w-6xl px-6">
-        <SectionHeader eyebrow="Social Proof" title="What People Say" />
+        <SectionHeader eyebrow="Social Proof" title="What Clients Say" />
 
         <div className="mt-16 grid gap-5 md:grid-cols-3">
           {quotes.map((q) => (

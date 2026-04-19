@@ -3,20 +3,20 @@ import { SectionHeader } from "./SectionHeader";
 
 const points = [
   {
-    title: "Usable systems, not demos",
-    desc: "Anything I ship runs in production with real users — not a Twitter screenshot.",
+    title: "Production-ready, not experiments",
+    desc: "Every system we ship runs in production with real users and real accountability.",
   },
   {
-    title: "Real-world impact first",
-    desc: "Every decision is measured against time saved, revenue gained, or pain removed.",
-  },
-  {
-    title: "Fast execution, clean architecture",
-    desc: "Move quickly without leaving a mess. Future-you (and your team) will thank me.",
+    title: "Built around real workflows",
+    desc: "We design for the actual business process, not isolated models in a notebook.",
   },
   {
     title: "AI + Engineering + Product",
-    desc: "I think like a product owner, build like an engineer, and design like an AI native.",
+    desc: "We combine all three disciplines so what we build is intelligent, reliable, and usable.",
+  },
+  {
+    title: "Optimized for usability",
+    desc: "Smart isn't enough. Our systems are fast, clear, and obvious to the people who use them.",
   },
 ];
 
@@ -24,7 +24,7 @@ export function WhyMe() {
   return (
     <section className="relative py-28">
       <div className="mx-auto max-w-6xl px-6">
-        <SectionHeader eyebrow="Differentiation" title="Why Me?" />
+        <SectionHeader eyebrow="Differentiation" title="Why ACube?" />
 
         <div className="mt-16 grid gap-4 md:grid-cols-2">
           {points.map((p) => (

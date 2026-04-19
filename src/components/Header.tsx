@@ -21,11 +21,13 @@ export function Header() {
         <Link to="/" className="group flex items-center gap-2">
           <div className="relative h-7 w-7 rounded-md bg-gradient-to-br from-neon to-violet">
             <div className="absolute inset-[2px] rounded-[5px] bg-background" />
-            <div className="absolute inset-0 flex items-center justify-center font-mono text-sm font-bold text-neon">
-              ⌘
+            <div className="absolute inset-0 flex items-center justify-center font-mono text-[11px] font-bold text-neon">
+              A
             </div>
           </div>
-          <span className="text-sm font-semibold tracking-tight">your.name</span>
+          <span className="text-sm font-semibold tracking-tight">
+            ACube <span className="text-muted-foreground font-normal">— AI Systems Studio</span>
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -33,7 +35,7 @@ export function Header() {
             Services
           </a>
           <a href="/#projects" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-            Projects
+            Case Studies
           </a>
           <a href="/#process" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
             Process
@@ -44,11 +46,11 @@ export function Header() {
         </nav>
 
         <a
-          href="/#contact"
+          href="mailto:cacube.ai@gmail.com"
           className="group inline-flex items-center gap-2 rounded-full border border-border bg-secondary/50 px-4 py-1.5 text-sm font-medium transition-all hover:border-neon/50 hover:bg-secondary"
         >
           <span className="h-1.5 w-1.5 rounded-full bg-neon animate-pulse" />
-          Available for work
+          Work With Us
         </a>
       </div>
     </header>
